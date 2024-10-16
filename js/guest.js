@@ -1,5 +1,4 @@
 import { audio } from './audio.js';
-
 import { storage } from './storage.js';
 import { theme } from './theme.js';
 import { util } from './util.js';

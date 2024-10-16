@@ -421,7 +421,7 @@
         </section>
 
         <!-- Kado-->
-        <section class=" position-relative overflow-hidden pb-5 pt-5 m-0 " style="background-image: url('./assets/images/bridesmaid.jpg');">
+        <section class=" position-relative overflow-hidden pb-5 pt-5 m-0 " id="kado" style="background-image: url('./assets/images/bridesmaid.jpg');">
             <div class="card-tutup" >
                 <h2 class="judul" style="font-size: 2rem; " data-aos="zoom-in" data-aos-duration="2000">Kirim Kado</h2>
                 <p>Terima kasih atas doa dan restu yang telah anda berikan, jika anda ingin mengirimkan kado nikah, silahkan kirim dengan cara dibawah ini. Sebelumnya, kami mengucapkan banyak terima kasih.</p>
@@ -492,6 +492,20 @@
             </div>
         </section>
 
+        <!-- End Of Invitation -->
+        <section class=" position-relative overflow-hidden pb-5 pt-5 m-0 " style="background-color: white;">
+            <div class="container" style="position: relative; z-index: 2; ">
+                <div class="text-center">
+                    <p class="pt-2 pb-1 px-2" style="font-size: 1.24rem; color: #000;">
+                        Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk memberikan do'a restunya. Kami ucapkan terima kasih.
+                    </p>
+    
+                    <hr class="mt-3 mb-2">
+
+                </div>
+            </div>
+        </section>
+
         
     </main>
     
@@ -515,8 +529,24 @@
 
     <!-- Audio Button -->
     <button type="button" id="button-music" style="display: none;" class="btn border border-2 btn-sm btn-music" onclick="audio.button(this)" data-url="./assets/music/sound.mp3">
-        <i class="fa-solid fa-circle-play"></i>
+        <i class="fa-solid fa-circle-pause spin-button"></i>
     </button>
+
+    <!-- Kado Button -->
+    <a href="#kado" style="text-decoration: none; color: inherit;">
+        <button type="button"  id="button-kado" style="display: block;" class="btn border border-2 btn-sm btn-kado">
+                <i class="fa-solid fa-gift"></i>
+                <span style="font-size: 10px;padding-top: 0;">KADO</span>
+        </button>
+    </a>
+
+    <!-- RSVP Button -->
+    <a href="#comments" style="text-decoration: none; color: inherit;">
+        <button type="button"  id="button-rsvp" style="display: block;" class="btn border border-2 btn-sm btn-rsvp">
+                <i class="fa-solid fa-envelope-open"></i>
+                <span style="font-size: 10px;padding-top: 0;">RSVP</span>
+        </button>
+    </a>
 
     <!-- Loading Page -->
     <div class="loading-page bg-black" id="loading" style="display: none;">

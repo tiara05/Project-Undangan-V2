@@ -204,6 +204,44 @@ hr {
         background-color: #3f3f3f;
 }
 
+.btn-kado {
+    position: fixed;
+    bottom: 12vh !important;
+    right: 4vh !important; /* Mengubah posisi menjadi sebelah kiri */
+    z-index: 1055 !important;
+    width: 60px; /* Atur lebar tombol */
+    height: 60px; /* Atur tinggi tombol */
+    display: flex; /* Menggunakan flexbox untuk centering */
+    align-items: center; /* Vertikal center */
+    justify-content: center; /* Horizontal center */
+    border-radius: 8px; /* Membuat sudut lebih membulat jika diinginkan */
+    font-size: 20px; /* Mengatur ukuran ikon */  
+    background-color: #3f3f3f;
+}
+
+.btn-rsvp {
+    position: fixed;
+    bottom: 22vh !important;
+    right: 4vh !important; /* Mengubah posisi menjadi sebelah kiri */
+    z-index: 1055 !important;
+    width: 60px; /* Atur lebar tombol */
+    height: 60px; /* Atur tinggi tombol */
+    display: flex; /* Menggunakan flexbox untuk centering */
+    align-items: center; /* Vertikal center */
+    justify-content: center; /* Horizontal center */
+    border-radius: 8px; /* Membuat sudut lebih membulat jika diinginkan */
+    font-size: 20px; /* Mengatur ukuran ikon */  
+    background-color: #3f3f3f;
+}
+
+.btn-kado span, .btn-rsvp span {
+    margin: 0; /* Menghapus margin dari teks */
+    padding: 0; /* Menghapus padding dari teks */
+    display: block; /* Memastikan teks berada di baris baru di bawah ikon */
+    text-align: center; /* Mengatur teks agar berada di tengah */
+}
+
+
 .map-container {
     text-align: center; /* Pusatkan kontainer */
     padding: 20px;
