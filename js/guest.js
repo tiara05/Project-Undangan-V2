@@ -76,6 +76,9 @@ export const guest = (() => {
         document.body.scrollIntoView({ behavior: 'instant' });
         util.opacity('welcome', 0.025);
     
+        const invitationContainer = document.querySelector('.invitation-container');
+        invitationContainer.classList.add('zoom-in');
+
         audio.play();
         audio.showButton();
         theme.showButtonChangeTheme();
