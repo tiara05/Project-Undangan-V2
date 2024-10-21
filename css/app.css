@@ -194,8 +194,8 @@ hr {
         bottom: 12vh !important;
         left: 4vh !important; /* Mengubah posisi menjadi sebelah kiri */
         z-index: 1055 !important;
-        width: 60px; /* Atur lebar tombol */
-        height: 60px; /* Atur tinggi tombol */
+        width: 50px; /* Atur lebar tombol */
+        height: 50px; /* Atur tinggi tombol */
         display: flex; /* Menggunakan flexbox untuk centering */
         align-items: center; /* Vertikal center */
         justify-content: center; /* Horizontal center */
@@ -209,8 +209,8 @@ hr {
     bottom: 12vh !important;
     right: 4vh !important; /* Mengubah posisi menjadi sebelah kiri */
     z-index: 1055 !important;
-    width: 60px; /* Atur lebar tombol */
-    height: 60px; /* Atur tinggi tombol */
+    width: 50px; /* Atur lebar tombol */
+    height: 50px; /* Atur tinggi tombol */
     display: flex; /* Menggunakan flexbox untuk centering */
     align-items: center; /* Vertikal center */
     justify-content: center; /* Horizontal center */
@@ -224,8 +224,8 @@ hr {
     bottom: 22vh !important;
     right: 4vh !important; /* Mengubah posisi menjadi sebelah kiri */
     z-index: 1055 !important;
-    width: 60px; /* Atur lebar tombol */
-    height: 60px; /* Atur tinggi tombol */
+    width: 50px; /* Atur lebar tombol */
+    height: 50px; /* Atur tinggi tombol */
     display: flex; /* Menggunakan flexbox untuk centering */
     align-items: center; /* Vertikal center */
     justify-content: center; /* Horizontal center */
@@ -239,6 +239,7 @@ hr {
     padding: 0; /* Menghapus padding dari teks */
     display: block; /* Memastikan teks berada di baris baru di bawah ikon */
     text-align: center; /* Mengatur teks agar berada di tengah */
+    color: white;
 }
 
 
